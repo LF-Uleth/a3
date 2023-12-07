@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feudal Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="signContainer">
+        <img id="signImage" src="images/sign.png" alt="Sign" class="top-left">
+    </div>
+
+<div id="stickFigure" onclick="changeOutfit()">
+    <img id="stickImage" src="images/stick-figure-outfit1.png" alt="Stick Figure">
+</div>
+
+<div id="chestContainer" onclick="spawnCoin()">
+    <img id="chest" src="images/chest.png" alt="Chest" class="bottom-left">
+</div>
+
+<div id="summary">Earn Gold by clicking on the Chest <br> when you have enough Gold, click <br> on the character to change outfits! 
+</div>
+
+<div id="amountNeeded"> Amount Needed : $5</div>
+
+
+<div id="counter">Gold: $0</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
